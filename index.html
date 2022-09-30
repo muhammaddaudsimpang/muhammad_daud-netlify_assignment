@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Portofolio</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="index.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <div class="flex-container">
+            <h1 class="text-3xl font-bold text-gray-400">Hello, I'm Muhammad Daud</h1>
+            <img width="190" src="https://media-exp1.licdn.com/dms/image/C5603AQFy6_DU-vY5tQ/profile-displayphoto-shrink_200_200/0/1664209069450?e=1669852800&v=beta&t=zfz6ZMil7u2zPV6r1_ywJLJbJDJqIi90RzRNrCWbMvU" alt="foto muhammad daud"/>
+        </div>
+        <main>
+            <section class="content">
+                <header>
+                    <h2 class="text-2xl font-bold text-black">Tentang Saya</h2>
+                </header>
+                <p>Saya adalah seorang mahasiswa Universitas Pendidikan Indonesia (UPI) jurusan Matematika. Saya lahir pada tanggal 01 Februari Tahun 2001 di Bandung, Indonesia. Saya memiliki minat lebih pada bidang olahraga, khususnya sepak bola.</p>
+            </section>
+            <section class="content">
+                <header>
+                    <h2 class="text-2xl font-bold text-black">Riwayat Pendidikan</h2>
+                </header>
+                <ul>
+                    <li>Universitas Pendidikan Indonesia</li>
+                    <!-- Sarjana Sains - Mathematics (2019 - Sekarang) -->
+                    <li>SMAN 2 Bandung</li>
+                    <!-- Sains, 2016 - 2019 -->
+                </ul>
+            </section>
+            <section class="content">
+                <header>
+                    <h2 class="text-2xl font-bold text-black">Kontak Saya</h2>
+                </header>
+                <h3 class="text-xl font-normal text-black">Sosial media</h3>
+                <p>
+                    email <a href="mailto:muhammaddaud@upi.edu" target="_blank">muhammaddaud@upi.edu</a>
+                </p>
+                <p>
+                    linkedin <a href="https://linkedin.com/in/muhammaddaudnst" target="_blank">muhammaddaudnst</a>
+                </p>
+        </main>
+        <section class="grid-container">
+            <h3 class="text-2xl font-bold text-black"> Kirimi saya pesan</h3>
+            <form>
+                <label class="text-1xl font-normal text-black" for="nama">Nama:</label><br />
+                <input type="text" id="nama" name="nama" /><br />
+                <label class="text-1xl font-normal text-black" for="email">Email:</label><br />
+                <input type="text" id="emial" name="email" /><br />
+                <label class="text-1xl font-normal text-black" for="message">Pesan:</label><br />
+                <textarea id="message" rows="4" cols="20"></textarea>
+            </form>
+            <button class="text-1xl font-bold md:font-semibold text-black">Kirim</button>
+        </section>
+    </body>
+</html>
